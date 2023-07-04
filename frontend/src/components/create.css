@@ -1,0 +1,65 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.card {
+  background-color: #3498db;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 10px;
+  width: 400px;
+  max-width: 100%;
+}
+
+.card-title {
+  color: #333333;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-content {
+  color: #555555;
+  margin-bottom: 8px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #666666;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  margin: 5px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #47c5f1;
+}
